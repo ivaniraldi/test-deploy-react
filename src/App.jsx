@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar"
 import Footer from "./components/Footer"
 import Main from "./components/Main"
+import Card from "./components/Card"
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
     <>
       <NavBar/>
       <Main/>
+      <Card titulo="Remera de verano talla M" precio={5000}/>
+      <Card titulo="Zapatos talla 41" precio={8000}/>
     </>
   );
 }
